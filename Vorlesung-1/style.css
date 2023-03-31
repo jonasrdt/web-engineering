@@ -1,0 +1,29 @@
+h1, h2 {
+    color: green;
+}
+
+body {
+    color: greenyellow;
+    background-color:black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img {
+    width: 250px;
+}
+
+hr {
+    border-color: greenyellow;
+    border-width: 1px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+a {
+    color:white;
+}
+
+table{
+    border-color: greenyellow;
+    border-width: 1px;
+}
