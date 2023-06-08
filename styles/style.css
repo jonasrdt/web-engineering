@@ -3,8 +3,9 @@
 
 @layer base {
     .fs-grid {
-        @apply grid grid-cols-5 md:grid-cols-12 gap-2x;
+        @apply grid grid-cols-5 md:grid-cols-12;
     }    
+    
     h1 {
         font-weight: bold;
         font-size: 25px;

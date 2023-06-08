@@ -1,5 +1,6 @@
 export { default as ArticleForm } from '../../components/ArticleForm.vue'
 export { default as Body } from '../../components/Body.vue'
+export { default as ErstiRallyeForm } from '../../components/ErstiRallyeForm.vue'
 export { default as Header } from '../../components/Header.vue'
 export { default as HiddenPage } from '../../components/HiddenPage.vue'
 export { default as Login } from '../../components/Login.vue'
