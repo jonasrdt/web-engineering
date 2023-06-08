@@ -1,5 +1,9 @@
 <template>
-    <div class="">
+  <div class="">
+      <div>
+        <h1>Newsfeed füllen</h1>
+        <p>Mit folgendem Formular kannst du weitere Inhalte zum Newsfeed hinzufügen.</p>
+      </div>
         <form @submit.prevent="saveData" class="article-form flex flex-col">
             <label for="title">Titel:</label>
             <input type="text" id="title" v-model="title">

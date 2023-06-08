@@ -3,7 +3,8 @@
         <h2>Hier sind alle aktuellen Artikel:</h2>
         <ul>
             <li v-for="item in items" :key="item.id">
-                {{ item.title }} - {{ item.content }}
+                <h3>{{ item.title }} <br/></h3>
+                {{ item.content }}
             </li>
         </ul>
     </div>
@@ -25,7 +26,7 @@
   },
   methods: {
     async fetchData() {
-      const snapshot = await db.collection('meineSammlung').get()
+      const snapshot = await db.collection('meineArtikel').get()
       const items = []
       snapshot.forEach(doc => {
         items.push({
