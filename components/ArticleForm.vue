@@ -1,5 +1,5 @@
 <template>
-  <div class="fs-grid flex flex-col">
+  <div class="fs-grid flex flex-col mb-8">
       <div class="col-start-5 col-span-5">
         <h1>Newsfeed füllen</h1>
         <p>Mit folgendem Formular kannst du weitere Inhalte zum Newsfeed hinzufügen.</p>

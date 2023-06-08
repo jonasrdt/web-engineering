@@ -1,5 +1,5 @@
 <template>
-    <div class="fs-grid flex flex-col">
+    <div class="fs-grid flex flex-col mb-8">
         <div class="col-start-5 col-span-5">
           <h1>TeilnehmerIn zur Ersti-Fahrt anmelden</h1>
           <p>Mit folgendem Formular kannst manuell jemanden zur Ersti-Fahrt anmelden</p>
@@ -7,8 +7,8 @@
         <form @submit.prevent="saveData" class="article-form flex flex-col col-start-5 col-span-5">
               <label for="Vornamen">Vorname:</label>
               <input type="text" id="vorname" v-model="vorname">
-              <label for="content">Nachname:</label>
-              <textarea id="nachname" v-model="nachname"></textarea>
+              <label for="Nachname">Nachname:</label>
+              <input type="text" id="nachname" v-model="nachname">
               <button class="w-1/3" type="submit">Speichern</button>
           </form>
       </div>
@@ -19,19 +19,19 @@
   export default {
   data() {
     return {
-      title: '',
-      content: ''
+      vorname: '',
+      nachname: ''
     } 
   },
   methods: {
     async saveData() {
       const data = {
-        title: this.title,
-        content: this.content
+        vorname: this.vorname,
+        nachname: this.nachname
       }
       await db.collection('erstiFahrtAnmeldungen').add(data)
-      this.title = ''
-      this.content = ''
+      this.vorname = ''
+      this.nachname = ''
     }
   }
   }

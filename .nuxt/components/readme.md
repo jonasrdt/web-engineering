@@ -8,6 +8,7 @@ You can directly use them in pages and other components without the need to impo
 
 - `<ArticleForm>` | `<article-form>` (components/ArticleForm.vue)
 - `<Body>` | `<body>` (components/Body.vue)
+- `<ErstiFahrtList>` | `<ersti-fahrt-list>` (components/ErstiFahrtList.vue)
 - `<ErstiRallyeForm>` | `<ersti-rallye-form>` (components/ErstiRallyeForm.vue)
 - `<Header>` | `<header>` (components/Header.vue)
 - `<HiddenPage>` | `<hidden-page>` (components/HiddenPage.vue)

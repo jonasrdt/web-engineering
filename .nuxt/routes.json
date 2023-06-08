@@ -7,6 +7,13 @@
     "_name": "_38ca7e5e"
   },
   {
+    "name": "erstifahrt",
+    "path": "/erstifahrt",
+    "component": "/Users/jonasreinhardt/_Development/fachschaftswebsite/web-engineering/pages/erstifahrt.vue",
+    "chunkName": "pages/erstifahrt",
+    "_name": "_0b68e502"
+  },
+  {
     "name": "login",
     "path": "/login",
     "component": "/Users/jonasreinhardt/_Development/fachschaftswebsite/web-engineering/pages/login.vue",

@@ -5,6 +5,9 @@
   "Body": {
     "description": "Auto imported from components/Body.vue"
   },
+  "ErstiFahrtList": {
+    "description": "Auto imported from components/ErstiFahrtList.vue"
+  },
   "ErstiRallyeForm": {
     "description": "Auto imported from components/ErstiRallyeForm.vue"
   },
