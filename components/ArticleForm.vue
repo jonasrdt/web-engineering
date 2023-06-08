@@ -1,15 +1,15 @@
 <template>
   <div class="fs-grid flex flex-col mb-8">
-      <div class="col-start-5 col-span-5">
+      <div class="col-start-1 md:col-start-5 col-span-4 md:col-span-5">
         <h1>Newsfeed füllen</h1>
         <p>Mit folgendem Formular kannst du weitere Inhalte zum Newsfeed hinzufügen.</p>
       </div>
-      <form @submit.prevent="saveData" class="article-form flex flex-col col-start-5 col-span-5">
+      <form @submit.prevent="saveData" class="article-form flex flex-col col-start-1 md:col-start-5 col-span-4 md:col-span-5">
             <label for="title">Titel:</label>
             <input type="text" id="title" v-model="title">
             <label for="content">Inhalt:</label>
             <textarea id="content" v-model="content"></textarea>
-            <button class="w-1/3" type="submit">Speichern</button>
+            <button class="w-1/3 mt-8" type="submit">Speichern</button>
         </form>
     </div>
 </template>

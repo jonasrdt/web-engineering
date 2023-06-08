@@ -1,3 +1,4 @@
 .vscode
+.nuxt
 node_modules
 plugins/firebase.js

@@ -1,6 +1,6 @@
 <template>
     <div class="fs-grid">
-        <div class="col-start-5 col-span-5">
+        <div class="col-start-1 md:col-start-5 col-span-4 md:col-span-5">
             <h2>Hier sind alle aktuellen Anmeldungen für die Ersti-Fahrt</h2>
             <ul>
                 <li v-for="item in items" :key="item.id">
