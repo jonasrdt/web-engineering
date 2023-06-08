@@ -1,0 +1,23 @@
+[
+  {
+    "name": "admin",
+    "path": "/admin",
+    "component": "/Users/jonasreinhardt/_Development/fachschaftswebsite/web-engineering/pages/admin.vue",
+    "chunkName": "pages/admin",
+    "_name": "_38ca7e5e"
+  },
+  {
+    "name": "login",
+    "path": "/login",
+    "component": "/Users/jonasreinhardt/_Development/fachschaftswebsite/web-engineering/pages/login.vue",
+    "chunkName": "pages/login",
+    "_name": "_7bd30feb"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/jonasreinhardt/_Development/fachschaftswebsite/web-engineering/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_9ba92658"
+  }
+]

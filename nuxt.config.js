@@ -43,6 +43,20 @@ export default {
   modules: [
   ],
 
+  firebase: {
+    config: {
+      src: '~/plugins/firebase.js'
+    },
+    services: {
+      auth: true, // Aktiviert den Authentifizierungsdienst
+      firestore: true,
+    },
+  },
+
+  router: {
+    middleware: ['auth'], // Fügen Sie hier den Namen der Middleware hinzu
+  },
+
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   }
